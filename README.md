@@ -49,7 +49,7 @@ $ sudo cp oc kubectl /usr/local/bin/
 $ oc version
 ```
 **- The result should be in the image bellow**
-<p align="center"><img src="screenshots/oc version.PNG" width="20%" height="20%">
+<p align="center"><img src="screenshots/oc version.PNG" width="50%" height="50%">
 <br><em>oc version result</em> 
 </p>
 
@@ -82,7 +82,7 @@ $ terraform plan
 $ terraform apply
 ```
 
-<p align="center"><img src="screenshots/terraform/terraform tree last.png" width="90%" height="90%">
+<p align="center"><img src="screenshots/terraform/terraform tree last.png" width="50%" height="50%">
 <br><em>Terraform structure</em> 
 </p>
 
