@@ -53,7 +53,20 @@ $ oc version
 <br><em>oc version result</em> 
 </p>
 
-## Project Components
+**- Access your openshift cluster via Terminal (oc command-line tool)**
+```shell
+$ oc login https://"link of the oc cluster":"Port" -u "your username" -p "your Password"
+```
+
+## 1st lab: Deployment and rollback 
+### Objectives
+* Deploy NGINX with 3 replicas.
+* Create a service to expose NGINX deployment. 
+* Use port forwarding to access NGINX service locally. 
+* Update the deployment to use Apache image insted of Nginx image.
+* View deployment's rollout history. 
+* Roll back NGINX deployment to the previous image (Nginx) and Monitor pod status to confirm successful rollback.
+
 
 ### 1. Spring Boot Application Deployment Using Jenkins on OpenShift
 
