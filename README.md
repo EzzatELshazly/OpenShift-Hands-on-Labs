@@ -3,7 +3,7 @@
 ## Introduction
 OpenShift is a comprehensive and robust container application platform developed by Red Hat, built on top of Kubernetes. It provides a range of tools and services to help developers and IT operations teams build, deploy, and manage containerized applications.
 
-<p align="center"><img src="screenshots/OpenShift-Logo.png" width="50%" height="50%">
+<p align="center"><img src="screenshots/OpenShift-Logo.png" width="20%" height="20%">
 <br><em>OpenShift logo</em>
 </p>
 
@@ -49,7 +49,7 @@ $ sudo cp oc kubectl /usr/local/bin/
 $ oc version
 ```
 **- The result should be in the image bellow**
-<p align="center"><img src="screenshots/oc version.PNG" width="90%" height="90%">
+<p align="center"><img src="screenshots/oc version.PNG" width="20%" height="20%">
 <br><em>oc version result</em> 
 </p>
 
