@@ -13,42 +13,42 @@ OpenShift is a comprehensive and robust container application platform developed
 ### 2. Install openshift on your linux virtual machine. 
 
 **Install OpenShift on Ubuntu**
-**Update system by using following commands**
+**- Update system by using following commands**
 ```shell
 $ sudo apt update
 $ sudo apt upgrade
 ```
-**Install docker**
+**- Install docker**
 ```shell
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-**Start the docker service and enable it**
+**- Start the docker service and enable it**
 ```shell
 $ sudo systemctl start docker
 $ sudo systemctl enable docker
 ```
-**Check the status of docker service**
+**- Check the status of docker service**
 ```shell
 $ sudo systemctl status docker
 ```
-**Install OpenShift origin**
+**- Install OpenShift origin**
 ```shell
 $ sudo wget https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz
 ```
-**Once it is downloaded successfuly untar (extract) the file**
+**- Once it is downloaded successfuly untar (extract) the file**
 ```shell
 $ sudo tar -xvzf openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz
 ```
-**change directory to the extracted file**
+**- change directory to the extracted file**
 ```shell
 $ cd openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit
 ```
-**copy oc and kubectl to /usr/local/bin and check the version**
+**- copy oc and kubectl to /usr/local/bin and check the version**
 ```shell
 $ sudo cp oc kubectl /usr/local/bin/
 $ oc version
 ```
-**The result should be in the image bellow**
+**- The result should be in the image bellow**
 <p align="center"><img src="screenshots/oc version" width="90%" height="90%">
 <br><em>oc version result</em> 
 </p>
