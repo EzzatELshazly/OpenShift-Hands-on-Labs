@@ -12,7 +12,7 @@ OpenShift is a comprehensive and robust container application platform developed
 ### 1. Have access to openshift cluster. 
 ### 2. Install openshift on your linux virtual machine. 
 
-**Install OpenShift on Ubuntu**
+#### Install OpenShift on Ubuntu
 **- Update system by using following commands**
 ```shell
 $ sudo apt update
